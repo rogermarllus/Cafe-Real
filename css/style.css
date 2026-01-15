@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
 
 * {
   margin: 0px;
@@ -20,10 +19,9 @@ body {
 header {
   width: 100%;
   padding: 40px 0;
-}
-
-header * {
-  font-family: "Bodoni Moda", serif;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 header .interface {
@@ -49,17 +47,73 @@ header .menu-desktop nav ul li {
 header .menu-desktop nav ul li a {
   color: white;
   text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
 }
 
-header .btn-contato button {
-  width: 140px;
-  height: 50px;
-  font-size: 18px;
+.btn-contato button,
+.hero-site button {
   background-color: transparent;
   border: 1px solid white;
   color: white;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-header .btn-contato button:hover {
-  cursor: pointer;
+.btn-contato button {
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.hero-site button {
+  width: 220px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.btn-contato button:hover,
+.hero-site button:hover {
+  background-color: white;
+  color: black;
+}
+
+.menu-desktop nav a:hover {
+  transform: scale(1.05);
+}
+
+section.hero-site {
+  height: 98vh;
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-site .interface {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.txt-hero h1 {
+  font-size: 4em;
+  line-height: 70px;
+  font-weight: 200;
+}
+
+.txt-hero h1 span {
+  display: block;
+  font-weight: 800;
+}
+
+.txt-hero p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+
+.txt-hero p span {
+  display: block;
 }
