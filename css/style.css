@@ -20,8 +20,10 @@ header {
   width: 100%;
   padding: 40px 0;
   position: fixed;
+  z-index: 5;
   top: 0;
   left: 0;
+  transition: 0.3s;
 }
 
 header .interface {
@@ -32,6 +34,38 @@ header .interface {
 
 header .logo img {
   max-width: 40px;
+}
+
+header .logo img.logo-dark {
+  display: none;
+}
+
+header.rolar {
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+header.rolar .menu-desktop nav ul li a {
+  color: black;
+}
+
+header.rolar .btn-contato button {
+  border: 1px solid black;
+  color: black;
+}
+
+header.rolar .btn-contato button:hover {
+  background-color: black;
+  color: white;
+}
+
+header.rolar .logo .logo-light {
+  display: none;
+}
+
+header.rolar .logo .logo-dark {
+  display: block;
 }
 
 header .menu-desktop nav ul {
@@ -355,4 +389,5 @@ footer .bottom-footer p,
 footer .bottom-footer a {
   color: white;
   margin-top: 15px;
+  display: block;
 }
