@@ -1,0 +1,47 @@
+@media screen and (max-width: 900px) {
+  header .menu-desktop,
+  header .btn-contato {
+    display: none;
+  }
+
+  .txt-hero h1 {
+    font-size: 2.6em;
+    line-height: 50px;
+  }
+
+  .txt-hero p {
+    font-size: 25px;
+  }
+
+  .txt-hero p span {
+    display: inline;
+  }
+
+  .hero-site button {
+    font-size: 18px;
+  }
+
+  .vantagens .itens-container {
+    flex-direction: column;
+  }
+
+  .vantagens .itens-container .img-itens img {
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+  .vantagens .itens-container .txt-itens p {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .item-2 {
+    order: 0;
+  }
+
+  .item-1 {
+    order: 1;
+  }
+}
