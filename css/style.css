@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  background-color: black;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 40px 0;
+}
+
+header * {
+  font-family: "Bodoni Moda", serif;
+}
+
+header .interface {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  max-width: 40px;
+}
+
+header .menu-desktop nav ul {
+  list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header .btn-contato button {
+  width: 140px;
+  height: 50px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+header .btn-contato button:hover {
+  cursor: pointer;
+}
