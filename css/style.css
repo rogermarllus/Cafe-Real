@@ -145,3 +145,57 @@ section.vantagens {
 .vantagens .itens-container h3 span {
   font-weight: 300;
 }
+
+section.contato {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.txt-contato,
+.icons-contato {
+  display: inline-block;
+  width: 50%;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+
+.contato .txt-contato h3 {
+  font-size: 2.5em;
+}
+
+.contato .txt-contato h3 span {
+  display: block;
+  font-weight: 700;
+}
+
+.contato .icons-contato a {
+  text-decoration: none;
+}
+
+.contato .icons-contato button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1.2em;
+
+  width: 60%;
+  height: 60px;
+  margin: 0 auto 20px auto;
+  padding: 0 60px;
+
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.contato .icons-contato button i {
+  font-size: 20px;
+}
+
+.contato .icons-contato button:hover {
+  background-color: black;
+  color: white;
+}
