@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #e3e3e3;
 }
 
 .interface {
@@ -116,4 +116,32 @@ section.hero-site {
 
 .txt-hero p span {
   display: block;
+}
+
+section.vantagens {
+  padding: 80px 0;
+}
+
+.vantagens .itens-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+  margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-itens img {
+  max-width: 480px;
+  border-radius: 16px;
+  box-shadow: 3px 5px 25px rgb(153, 153, 153);
+}
+
+.vantagens .itens-container h3 {
+  font-size: 3em;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.vantagens .itens-container h3 span {
+  font-weight: 300;
 }
