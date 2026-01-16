@@ -4,6 +4,10 @@
     display: none;
   }
 
+  .btn-menu-mob {
+    display: block;
+  }
+
   .txt-hero {
     text-align: center;
   }
