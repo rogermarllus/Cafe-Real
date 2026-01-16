@@ -4,13 +4,19 @@
     display: none;
   }
 
+  .txt-hero {
+    text-align: center;
+  }
+
   .txt-hero h1 {
-    font-size: 2.6em;
+    font-size: 3em;
     line-height: 50px;
   }
 
   .txt-hero p {
-    font-size: 25px;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .txt-hero p span {
@@ -18,7 +24,12 @@
   }
 
   .hero-site button {
-    font-size: 18px;
+    font-size: 25px;
+  }
+
+  section.vantagens {
+    padding-top: 80px;
+    margin-bottom: -65px;
   }
 
   .vantagens .itens-container {
@@ -27,13 +38,22 @@
 
   .vantagens .itens-container .img-itens img {
     width: 100%;
+    margin-bottom: 0px;
     border-radius: 0px;
     box-shadow: none;
   }
 
+  .vantagens .itens-container .txt-itens h3 {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   .vantagens .itens-container .txt-itens p {
-    margin-bottom: 20px;
-    font-size: 22px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 25px;
     text-align: justify;
   }
 
@@ -43,5 +63,166 @@
 
   .item-1 {
     order: 1;
+  }
+
+  .txt-contato,
+  .icons-contato {
+    display: block;
+    width: 100%;
+  }
+
+  .contato .txt-contato h3 {
+    font-size: 3em;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 200;
+  }
+
+  .contato .txt-contato h3 span {
+    display: block;
+    font-weight: 700;
+  }
+
+  .contato .txt-contato p {
+    font-size: 2em;
+    text-align: center;
+    margin: 15px;
+  }
+
+  .contato .icons-contato button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 1.5em;
+
+    width: 80%;
+    height: 60px;
+    margin: 0 auto 10px auto;
+    padding: 0 40px;
+
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+
+    transition: 0.5s;
+  }
+
+  .contato .icons-contato button i {
+    font-size: 30px;
+  }
+
+  section.cardapio {
+    height: 600px;
+    background-image: url(../images/call-to-action.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    text-align: center;
+  }
+
+  .cardapio > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000b9;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .cardapio > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+  }
+
+  .cardapio h3 {
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 200;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .cardapio h3 span {
+    display: block;
+    font-weight: 600;
+  }
+
+  .cardapio p {
+    margin: 20px 15px;
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .cardapio button {
+    width: 300px;
+    height: 90px;
+    font-size: 25px;
+  }
+
+  section.como-funciona {
+    padding: 80px 0;
+  }
+
+  .txt-funciona,
+  .instrucoes {
+    display: block;
+    width: 100%;
+  }
+
+  .txt-funciona {
+    position: static;
+  }
+
+  .como-funciona .txt-funciona h3 {
+    font-size: 4em;
+    line-height: 50px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .como-funciona .txt-funciona h3 span {
+    display: block;
+    font-weight: 700;
+  }
+
+  .instrucoes .instru-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid black;
+  }
+
+  .instru-box img {
+    max-width: 100px;
+  }
+
+  .instrucoes .instru-box h4 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .instrucoes .instru-box h4 span {
+    font-weight: 300;
+  }
+
+  .instrucoes .instru-box p {
+    line-height: 20px;
+    font-size: 20px;
   }
 }
